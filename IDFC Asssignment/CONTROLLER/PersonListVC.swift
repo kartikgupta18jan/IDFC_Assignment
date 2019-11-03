@@ -12,7 +12,7 @@ class PersonListVC: UIViewController, UITableViewDataSource, UITableViewDelegate
     @IBOutlet var tblList : UITableView!
     @IBOutlet var lblNodata : UILabel!
     var person = [PersonTable]()
-    var arrPersonList:[String]!
+    var arrPersonList = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.PersonData()
