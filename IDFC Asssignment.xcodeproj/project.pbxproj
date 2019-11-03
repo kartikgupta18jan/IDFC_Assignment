@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		989B878F236DBA580008C79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B878E236DBA580008C79F /* AppDelegate.swift */; };
-		989B8791236DBA580008C79F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B8790236DBA580008C79F /* ViewController.swift */; };
-		989B8794236DBA580008C79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989B8792236DBA580008C79F /* Main.storyboard */; };
-		989B8797236DBA580008C79F /* IDFC_Asssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 989B8795236DBA580008C79F /* IDFC_Asssignment.xcdatamodeld */; };
-		989B8799236DBA5A0008C79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989B8798236DBA5A0008C79F /* Assets.xcassets */; };
-		989B879C236DBA5A0008C79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989B879A236DBA5A0008C79F /* LaunchScreen.storyboard */; };
 		989B87A7236DBA5A0008C79F /* IDFC_AsssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87A6236DBA5A0008C79F /* IDFC_AsssignmentTests.swift */; };
 		989B87B2236DBA5A0008C79F /* IDFC_AsssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87B1236DBA5A0008C79F /* IDFC_AsssignmentUITests.swift */; };
+		989B87C7236DBAED0008C79F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87C0236DBAED0008C79F /* AppDelegate.swift */; };
+		989B87C8236DBAED0008C79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989B87C2236DBAED0008C79F /* Assets.xcassets */; };
+		989B87CA236DBAED0008C79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989B87C5236DBAED0008C79F /* LaunchScreen.storyboard */; };
+		989B87CB236DBAED0008C79F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 989B87C6236DBAED0008C79F /* Main.storyboard */; };
+		989B87CE236DBB250008C79F /* PersonListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87CD236DBB250008C79F /* PersonListVC.swift */; };
+		989B87D2236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 989B87D0236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodeld */; };
+		989B87E6236DBB5D0008C79F /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87E1236DBB5D0008C79F /* HRToast+UIView.swift */; };
+		989B87E8236DBB5D0008C79F /* CommonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87E3236DBB5D0008C79F /* CommonFunction.swift */; };
+		989B87E9236DBB5D0008C79F /* ButtonRoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87E4236DBB5D0008C79F /* ButtonRoundCorner.swift */; };
+		989B87EA236DBB5D0008C79F /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87E5236DBB5D0008C79F /* BorderView.swift */; };
+		989B87EE236DBDE40008C79F /* PersonListTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989B87EC236DBDE40008C79F /* PersonListTVCell.xib */; };
+		989B87EF236DBDE40008C79F /* PersonListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87ED236DBDE40008C79F /* PersonListTVCell.swift */; };
+		989B87F1236DBFAC0008C79F /* AddPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B87F0236DBFAC0008C79F /* AddPersonVC.swift */; };
+		98B2B305236EE65D00893A36 /* PersonTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B2B2FE236EE65D00893A36 /* PersonTable.swift */; };
+		98B2B306236EE65D00893A36 /* PersonTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B2B2FF236EE65D00893A36 /* PersonTable+CoreDataProperties.swift */; };
+		98B2B308236EE65D00893A36 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B2B301236EE65D00893A36 /* DatabaseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +46,29 @@
 
 /* Begin PBXFileReference section */
 		989B878B236DBA580008C79F /* IDFC Asssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDFC Asssignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		989B878E236DBA580008C79F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		989B8790236DBA580008C79F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		989B8793236DBA580008C79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		989B8796236DBA580008C79F /* IDFC_Asssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IDFC_Asssignment.xcdatamodel; sourceTree = "<group>"; };
-		989B8798236DBA5A0008C79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		989B879B236DBA5A0008C79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		989B879D236DBA5A0008C79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989B87A2236DBA5A0008C79F /* IDFC AsssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDFC AsssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989B87A6236DBA5A0008C79F /* IDFC_AsssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFC_AsssignmentTests.swift; sourceTree = "<group>"; };
 		989B87A8236DBA5A0008C79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		989B87AD236DBA5A0008C79F /* IDFC AsssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDFC AsssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		989B87B1236DBA5A0008C79F /* IDFC_AsssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDFC_AsssignmentUITests.swift; sourceTree = "<group>"; };
 		989B87B3236DBA5A0008C79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989B87C0236DBAED0008C79F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		989B87C2236DBAED0008C79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		989B87C3236DBAED0008C79F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989B87C5236DBAED0008C79F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		989B87C6236DBAED0008C79F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		989B87CD236DBB250008C79F /* PersonListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListVC.swift; sourceTree = "<group>"; };
+		989B87D1236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IDFC_Asssignment.xcdatamodel; sourceTree = "<group>"; };
+		989B87E1236DBB5D0008C79F /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		989B87E3236DBB5D0008C79F /* CommonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFunction.swift; sourceTree = "<group>"; };
+		989B87E4236DBB5D0008C79F /* ButtonRoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRoundCorner.swift; sourceTree = "<group>"; };
+		989B87E5236DBB5D0008C79F /* BorderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		989B87EC236DBDE40008C79F /* PersonListTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonListTVCell.xib; sourceTree = "<group>"; };
+		989B87ED236DBDE40008C79F /* PersonListTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonListTVCell.swift; sourceTree = "<group>"; };
+		989B87F0236DBFAC0008C79F /* AddPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPersonVC.swift; sourceTree = "<group>"; };
+		98B2B2FE236EE65D00893A36 /* PersonTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTable.swift; sourceTree = "<group>"; };
+		98B2B2FF236EE65D00893A36 /* PersonTable+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PersonTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		98B2B301236EE65D00893A36 /* DatabaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +119,12 @@
 		989B878D236DBA580008C79F /* IDFC Asssignment */ = {
 			isa = PBXGroup;
 			children = (
-				989B878E236DBA580008C79F /* AppDelegate.swift */,
-				989B8790236DBA580008C79F /* ViewController.swift */,
-				989B8792236DBA580008C79F /* Main.storyboard */,
-				989B8798236DBA5A0008C79F /* Assets.xcassets */,
-				989B879A236DBA5A0008C79F /* LaunchScreen.storyboard */,
-				989B879D236DBA5A0008C79F /* Info.plist */,
-				989B8795236DBA580008C79F /* IDFC_Asssignment.xcdatamodeld */,
+				989B87BF236DBAED0008C79F /* APP DELEGATE */,
+				989B87C1236DBAED0008C79F /* RESOURCES */,
+				989B87C4236DBAED0008C79F /* VIEW */,
+				989B87CC236DBB250008C79F /* CONTROLLER */,
+				989B87CF236DBB2B0008C79F /* CORE DATA */,
+				989B87DF236DBB5D0008C79F /* Helper */,
 			);
 			path = "IDFC Asssignment";
 			sourceTree = "<group>";
@@ -126,6 +145,89 @@
 				989B87B3236DBA5A0008C79F /* Info.plist */,
 			);
 			path = "IDFC AsssignmentUITests";
+			sourceTree = "<group>";
+		};
+		989B87BF236DBAED0008C79F /* APP DELEGATE */ = {
+			isa = PBXGroup;
+			children = (
+				989B87C0236DBAED0008C79F /* AppDelegate.swift */,
+			);
+			path = "APP DELEGATE";
+			sourceTree = "<group>";
+		};
+		989B87C1236DBAED0008C79F /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				989B87C2236DBAED0008C79F /* Assets.xcassets */,
+				989B87C3236DBAED0008C79F /* Info.plist */,
+			);
+			path = RESOURCES;
+			sourceTree = "<group>";
+		};
+		989B87C4236DBAED0008C79F /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				989B87C5236DBAED0008C79F /* LaunchScreen.storyboard */,
+				989B87C6236DBAED0008C79F /* Main.storyboard */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		989B87CC236DBB250008C79F /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				989B87EB236DBDE40008C79F /* CELL */,
+				989B87CD236DBB250008C79F /* PersonListVC.swift */,
+				989B87F0236DBFAC0008C79F /* AddPersonVC.swift */,
+			);
+			path = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		989B87CF236DBB2B0008C79F /* CORE DATA */ = {
+			isa = PBXGroup;
+			children = (
+				98B2B2FB236EE65D00893A36 /* Database */,
+				989B87D0236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodeld */,
+			);
+			path = "CORE DATA";
+			sourceTree = "<group>";
+		};
+		989B87DF236DBB5D0008C79F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				989B87E0236DBB5D0008C79F /* Toast */,
+				989B87E3236DBB5D0008C79F /* CommonFunction.swift */,
+				989B87E4236DBB5D0008C79F /* ButtonRoundCorner.swift */,
+				989B87E5236DBB5D0008C79F /* BorderView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		989B87E0236DBB5D0008C79F /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				989B87E1236DBB5D0008C79F /* HRToast+UIView.swift */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		989B87EB236DBDE40008C79F /* CELL */ = {
+			isa = PBXGroup;
+			children = (
+				989B87EC236DBDE40008C79F /* PersonListTVCell.xib */,
+				989B87ED236DBDE40008C79F /* PersonListTVCell.swift */,
+			);
+			path = CELL;
+			sourceTree = "<group>";
+		};
+		98B2B2FB236EE65D00893A36 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				98B2B2FE236EE65D00893A36 /* PersonTable.swift */,
+				98B2B2FF236EE65D00893A36 /* PersonTable+CoreDataProperties.swift */,
+				98B2B301236EE65D00893A36 /* DatabaseService.swift */,
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +334,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989B879C236DBA5A0008C79F /* LaunchScreen.storyboard in Resources */,
-				989B8799236DBA5A0008C79F /* Assets.xcassets in Resources */,
-				989B8794236DBA580008C79F /* Main.storyboard in Resources */,
+				989B87CA236DBAED0008C79F /* LaunchScreen.storyboard in Resources */,
+				989B87EE236DBDE40008C79F /* PersonListTVCell.xib in Resources */,
+				989B87C8236DBAED0008C79F /* Assets.xcassets in Resources */,
+				989B87CB236DBAED0008C79F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +362,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				989B8791236DBA580008C79F /* ViewController.swift in Sources */,
-				989B8797236DBA580008C79F /* IDFC_Asssignment.xcdatamodeld in Sources */,
-				989B878F236DBA580008C79F /* AppDelegate.swift in Sources */,
+				98B2B306236EE65D00893A36 /* PersonTable+CoreDataProperties.swift in Sources */,
+				98B2B305236EE65D00893A36 /* PersonTable.swift in Sources */,
+				989B87E6236DBB5D0008C79F /* HRToast+UIView.swift in Sources */,
+				989B87CE236DBB250008C79F /* PersonListVC.swift in Sources */,
+				989B87E9236DBB5D0008C79F /* ButtonRoundCorner.swift in Sources */,
+				98B2B308236EE65D00893A36 /* DatabaseService.swift in Sources */,
+				989B87EA236DBB5D0008C79F /* BorderView.swift in Sources */,
+				989B87F1236DBFAC0008C79F /* AddPersonVC.swift in Sources */,
+				989B87EF236DBDE40008C79F /* PersonListTVCell.swift in Sources */,
+				989B87C7236DBAED0008C79F /* AppDelegate.swift in Sources */,
+				989B87E8236DBB5D0008C79F /* CommonFunction.swift in Sources */,
+				989B87D2236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +407,6 @@
 			targetProxy = 989B87AE236DBA5A0008C79F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		989B8792236DBA580008C79F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				989B8793236DBA580008C79F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		989B879A236DBA5A0008C79F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				989B879B236DBA5A0008C79F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		989B87B4236DBA5A0008C79F /* Debug */ = {
@@ -437,7 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "IDFC Asssignment/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/IDFC Asssignment/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +547,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "IDFC Asssignment/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/IDFC Asssignment/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,12 +679,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		989B8795236DBA580008C79F /* IDFC_Asssignment.xcdatamodeld */ = {
+		989B87D0236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				989B8796236DBA580008C79F /* IDFC_Asssignment.xcdatamodel */,
+				989B87D1236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodel */,
 			);
-			currentVersion = 989B8796236DBA580008C79F /* IDFC_Asssignment.xcdatamodel */;
+			currentVersion = 989B87D1236DBB2B0008C79F /* IDFC_Asssignment.xcdatamodel */;
 			path = IDFC_Asssignment.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
